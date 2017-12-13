@@ -2,13 +2,13 @@ import java.awt.geom.*;     // for Point2D.Double
 import java.util.ArrayList; // for ArrayList
 import gpdraw.*;            // for DrawingTool
 
-public class IrregularPolygon
+public class CalebLee implements Polygon
 {
     private ArrayList<Point2D.Double> myPolygon;
     private SketchPad myPaper;
     private DrawingTool myPencil;
     // constructors
-    public IrregularPolygon()
+    public CalebLee()
     {
         myPolygon = new ArrayList<Point2D.Double>();
         myPaper = new SketchPad(500,500);
